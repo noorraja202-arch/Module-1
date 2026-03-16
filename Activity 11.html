@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="utf-8">
+         <meta name="viewtort" content="width=device-width">
+        <title>Forms in html</title>
+    </head>
+    <body>
+        <form action="/action_page.php"oninput="x.value=(parseInt(m1.value)+parseInt(m2.value)+parseInt(m3.value))/3">
+            <fieldset>
+                <legend>Personal Information</legend>
+        <label>
+            Name:
+        </label>
+        <input type="text" id="name"> <br><br>
+        <label>
+            Email:
+        </label>
+        <input type="text" id="email"> <br><br>
+        <label>
+            Gender:
+        </label>
+        <input type="radio" id="female"value="female"> female
+        <input type="radio" id="Male"value="male"> Male <br><br>
+        <label>
+            Favourite City: <br><br>
+        </label>
+        <input type="checkbox"id="London"value="london"> london <br>
+        <input type="checkbox"id="Vancouver" value="Vancouver"> Vancouver <br>
+        <input type="checkbox"id="Mumbai" value="Mumbai"> Mumbai <br><br>
+        <label>
+            Date of birth:
+        </label>
+        <input type="date"id="birthday"><br><br>
+        <label>
+            Enter <marks:
+        </label>
+        <select name="subject" id="subject">
+        <option value="Math">Math</option>
+        <option value="Phys.Ed">Phys.Ed</option>
+        <option value="French">French</option>
+        </select>
+        
+        <input type="text"id="m1"><br><br>
+         <select name="subject 2" id="subject 2">
+        <option value="Math">Math</option>
+        <option value="Phys.Ed">Phys.Ed</option>
+        <option value="French">French</option>
+        </select>
+        <input type="text"id="m2"><br><br>
+
+         <select name="subject 3" id="subject 3">
+        <option value="Math">Math</option>
+        <option value="Phys.Ed">Phys.Ed</option>
+        <option value="French">French</option>
+        </select>
+        <input type="text"id="m3"><br><br>
+        average:
+        <output name="m4" for="m1 m2 m3"></output><br><br>
+        <input type="submit">
+        </form> </fieldset>
+    </body>
+</html>
