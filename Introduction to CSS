@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introduction to CSS</title>
+
+    <style>
+        /* Basketball */
+        h2 {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Basketball</h2>
+</body>
+</html>
